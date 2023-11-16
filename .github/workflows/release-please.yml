@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: service1
+          package-name: service1
           release-type: node
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"ci","section":"CI / CD","hidden":false},{"type":"test","section":"Testing","hidden":false},{"type":"refactor","section":"Refactorings","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
 
@@ -22,5 +23,6 @@ jobs:
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: service2
+          package-name: service2
           release-type: node
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"ci","section":"CI / CD","hidden":false},{"type":"test","section":"Testing","hidden":false},{"type":"refactor","section":"Refactorings","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
