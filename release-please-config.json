@@ -1,4 +1,5 @@
 {
+  "release-type": "node",
   "packages": {
     "service1": {},
     "service2": {}
