@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/aeternity/aepp-test/compare/service1-v1.0.0...service1-v1.1.0) (2023-11-16)
+
+
+### Features
+
+* Add more numbers to s1 ([7bed012](https://github.com/aeternity/aepp-test/commit/7bed0129fc305fb04b01c5807ce853b9321aafee))
+
 ## 1.0.0 (2023-11-16)
 
 
